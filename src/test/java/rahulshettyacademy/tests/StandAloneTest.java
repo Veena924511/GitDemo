@@ -62,6 +62,8 @@ public class StandAloneTest {
 	driver.findElement(By.cssSelector(".action__submit")).click();
 	String confirmMsg=driver.findElement(By.cssSelector(".hero-primary")).getText();
 	Assert.assertTrue(confirmMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+	Assert.assertTrue(confirmMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+	Assert.assertTrue(confirmMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 	//driver.close();
 	
 	}

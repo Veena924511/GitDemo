@@ -29,6 +29,7 @@ public class SubmitOrderTest extends BaseClass{
 	{
 	
 		String productName = "ZARA COAT 3";
+		String productName1 = "ZARA COAT 311";
 
 
 		ProductCatalogue prodCat = lndgPg.loginApplication("anshika@gmail.com", "Iamking@000");
