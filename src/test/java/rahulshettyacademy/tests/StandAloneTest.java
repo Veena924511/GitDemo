@@ -27,6 +27,8 @@ public class StandAloneTest {
 		String productName1="ZARA COAT 31";
 		String productName2="ZARA COAT 322";
 		driver.get("https://rahulshettyacademy.com/client");
+		driver.get("https://rahulshettyacademy2.com/client");
+		driver.get("https://rahulshettyacademy.1com/client");
 	
 		driver.findElement(By.id("userEmail")).sendKeys("anshika@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Iamking@000");
