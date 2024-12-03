@@ -35,6 +35,10 @@ public class ErrorValidations extends BaseClass{
 	
 		Assert.assertEquals("Incorrect email or password.",lndgPg.getErrorMsg() );
 
+		Assert.assertEquals("Incorrect email or password.",lndgPg.getErrorMsg() );
+
+		Assert.assertEquals("Incorrect email or password.",lndgPg.getErrorMsg() );
+
 	}
 
 }

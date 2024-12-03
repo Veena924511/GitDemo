@@ -50,6 +50,9 @@ public class SubmitOrderTest extends BaseClass{
 		ConfirmationPage cnfrmPg = chkoutPg.placeOrder();
 		String text = cnfrmPg.confirmation();
 		Assert.assertTrue(text.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		Assert.assertTrue(text.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		Assert.assertTrue(text.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		Assert.assertTrue(text.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		
 
 	}
