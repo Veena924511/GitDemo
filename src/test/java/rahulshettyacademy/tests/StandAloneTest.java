@@ -24,6 +24,8 @@ public class StandAloneTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String productName="ZARA COAT 3";
+		String productName1="ZARA COAT 31";
+		String productName2="ZARA COAT 322";
 		driver.get("https://rahulshettyacademy.com/client");
 	
 		driver.findElement(By.id("userEmail")).sendKeys("anshika@gmail.com");
